@@ -76,7 +76,7 @@ const SimplifierTool = forwardRef<HTMLDivElement, SimplifierToolProps>(({ onShow
   };
 
   return (
-    <main ref={ref} className="tool-section">
+    <main ref={ref} id="tool" className="tool-section">
       <div className="container">
         <div className="tool-header">
           <h2>Metin Basitleştirici</h2>
